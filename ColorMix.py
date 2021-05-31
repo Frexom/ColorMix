@@ -1,6 +1,9 @@
 def ColorMix(color1, color2):
     '''
     This functions takes two hex colors codes in parameters and return the hex code of these two colors mixed
+    Example:
+    ColorMix("0000ff","ffff00") #blue + yellow
+    >>>'7f7f7f' #Dark Green
     '''
     color1L = []
     color2L = []
